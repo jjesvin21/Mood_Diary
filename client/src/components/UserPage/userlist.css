@@ -1,0 +1,26 @@
+.addnew{
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    width:60%;
+    height: 30px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.sform{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.datelist{
+    height:400px;
+    overflow-y: scroll;
+    
+    
+}
+
+.datelist::-webkit-scrollbar {
+    display: none;
+  }

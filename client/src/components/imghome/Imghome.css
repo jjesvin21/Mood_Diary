@@ -1,0 +1,48 @@
+
+.imghomeOuter{
+    width: 430px;  
+    height: 200px;
+    overflow: hidden;
+}
+.imghomez1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: -1;
+    position:fixed;
+    overflow: hidden;
+}
+.imghomez2{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    
+    overflow: hidden;
+    text-align: center;
+}
+
+.img1{
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    bottom: 0%;
+    transform: translateY(7.5%);
+
+
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    bottom: 0%;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 30px;
+    top: 70%;
+    
+}
+

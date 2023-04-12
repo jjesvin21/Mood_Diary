@@ -1,0 +1,41 @@
+.login_header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 35px;
+padding-top: 5px;
+}
+
+.user{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.diarylist{
+    margin: 30px;
+    margin-left: 3rem;
+    width: 20%;
+    height: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+}
+
+.diary{
+    margin: 30px;
+    width:65%;
+    height: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.logoutBt{
+    margin-right: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width:1100px) {
+    .imagediv{
+        display: none;
+    }
+}
+.login_header{
+    display: flex;
+    justify-content: left;
+    font-size: 35px;
+    padding-top: 5px;
+}
+.outerform_div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagediv{
+    width:45rem;
+    
+}
+
+.form_div{
+    
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 30px;
+}
+
+.inputlogin{
+    padding-left: 15px;
+    width:20rem;
+    height: 2rem;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-width: .5px;
+
+}
+
+.textlogin {
+    font-size: 20px;
+       
+}
+
+.loginbut{
+    width:15rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.loginbut:hover{
+    background-color: gray;
+}
+

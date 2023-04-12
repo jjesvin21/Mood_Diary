@@ -1,0 +1,14 @@
+.usercardbt{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+
+    
+}
+.usercardbt:hover{
+    scale: 1.05;
+}
+

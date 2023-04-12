@@ -1,0 +1,35 @@
+.addnewdairyouter{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addnewdairydiv{
+    border: solid;
+    width: 80vw;
+    height: 80vh;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dairyinput{
+    width: 60vw;
+    height: 45vh;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.dairyinputbt{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+}
