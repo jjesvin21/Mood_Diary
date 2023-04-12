@@ -16,7 +16,9 @@ mongoose.connect(process.env.MONGO)
         console.log(err);
     })
 
-app.use(cors());
+app.use(cors({
+    origin:["https://mood-diary-daqw.vercel.app","http://localhost:3000"]
+}));
 app.use(express.json());
 
 app.use("/mooddairy/user",userroute);
