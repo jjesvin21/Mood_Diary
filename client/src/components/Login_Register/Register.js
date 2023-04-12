@@ -23,7 +23,7 @@ export default function Register() {
   }
   const createnewuser = async (e)=>{
     e.preventDefault();
-    await axios.post("http://localhost:8000/mooddairy/user/addnewuser",{email:email,name:name,password:password})
+    await axios.post(process.env.REACT_APP_API+"/mooddairy/user/addnewuser",{email:email,name:name,password:password})
     .then((responce)=>{
       if(responce.status ===200)
       {

@@ -18,7 +18,7 @@ export default function () {
   const fechdairy = async ()=>{
     
     console.log("hello");
-    await axios.post("http://localhost:8000/mooddairy/dairy/getdiary",{
+    await axios.post(process.env.REACT_APP_API+"/mooddairy/dairy/getdiary",{
       email:ctx.logintocken.email
     })
     .then((responce)=>{

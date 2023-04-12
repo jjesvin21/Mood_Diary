@@ -17,7 +17,7 @@ export default function AddNewDairy() {
     }
     const dairypost = async ()=>{
         try{
-        await axios.post("http://localhost:8000/mooddairy/dairy/addnewdairy",{
+        await axios.post(process.env.REACT_APP_API+"/mooddairy/dairy/addnewdairy",{
             email:ctx.logintocken.email,
             date:date,
             dairydata:dairyd

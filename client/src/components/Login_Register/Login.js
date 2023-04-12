@@ -22,7 +22,7 @@ export default function Login() {
   const submithandler = async (e)=>{
     
     e.preventDefault();
-    await axios.post('http://localhost:8000/mooddairy/user/login',{email:email,password:password})
+    await axios.post(process.env.REACT_APP_API+'/mooddairy/user/login',{email:email,password:password})
     .then((respoce)=>{
       console.log(respoce.data);
       ctx.setlogintocken(respoce.data);
